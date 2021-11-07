@@ -1,0 +1,55 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header{
+    color: purple;
+    text-align: center;
+    font-family: cursive;
+    font-size: 180%
+}
+
+img {
+    width: 20em;    
+    height: 20em;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.Cuadro_anuncios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Anuncio {
+    font-family: serif;
+    font-weight: bolder;
+    /*width: 30em;*/
+    border-style: solid;
+    border-width: medium;
+    border-color: red;
+    text-align: center;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Anuncio:hover {
+    background: url(https://educacionadistancia.juntadeandalucia.es/centros/cadiz/pluginfile.php/1245688/assignsubmission_file/submission_files/imagenes/fondo-negro-fa.jpgntasmas);
+    color: purple;
+}
+
+.Anuncio:hover img {
+    height: 30em;
+    width: 30em;
+}
+.cabezaAnuncio .textoAnuncio{
+    flex-grow: 1;
+    
+}
