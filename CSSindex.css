@@ -27,6 +27,7 @@ footer{
 
 nav{
     display: flex;
+    width: 100%;
 }
 
 #subtitulo{
@@ -49,11 +50,24 @@ nav{
     /* Listado de ejercicios */
 #listado{
     align-self: flex-start;
+    width: 25%;
 }
 
     /* Pruebas html */
 #prueba{
     align-items: flex-start;
+    width: 25%;
+}
+
+#listadoCss{
+    align-self: flex-start;
+    width: 25%;
+}
+
+    /* Pruebas html */
+#pruebaCss{
+    align-items: flex-start;
+    width: 25%;
 }
 
     /* Sin visitar */
